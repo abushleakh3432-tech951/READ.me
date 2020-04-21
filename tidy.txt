@@ -1,1 +1,156 @@
+dtTidy
 
+Variable       | Comments
+---------------|-----------
+Subject        | subject identifier of volunteer (1-30)
+ActivityName   | name ofactivity subject performed (LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS)
+ftDomain       | Feature: Time or Frequency domain (Time,Freq)
+ftInstrment    | Feature: Instrument measured (Accelerometer,Gyroscope)
+ftAcceleration | Feature: Acceleration measured (Body,Gravity)
+ftStatVariable | Feature: Stat variable (mean,std)
+ftJerk         | Feature: Jerk indicator (Y)
+ftMagnitude    | Feature: Magnitude indicator (Y)
+ftAxis         | Feature: Axis measured (X,Y,Z)
+ftAvg          | Feature: Average of measurements over subject and activity and above features (numeric)
+Variable                                   | Comments
+-------------------------------------------|-----------
+Subject                                    |  subject identifier of volunteer (1-30)
+ActivityName                               |  name ofactivity subject performed (LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS)
+timeBodyAccelerometerMeanX                 |  mean of tBodyAcc-mean()-X
+timeBodyAccelerometerMeanY                 |  mean of tBodyAcc-mean()-Y
+timeBodyAccelerometerMeanZ                 |  mean of tBodyAcc-mean()-Z
+timeBodyAccelerometerStdX                  |  mean of tBodyAcc-std()-X
+timeBodyAccelerometerStdY                  |  mean of tBodyAcc-std()-Y
+timeBodyAccelerometerStdZ                  |  mean of tBodyAcc-std()-Z
+timeGravityAccelerometerMeanX              |  mean of tGravityAcc-mean()-X
+timeGravityAccelerometerMeanY              |  mean of tGravityAcc-mean()-Y
+timeGravityAccelerometerMeanZ              |  mean of tGravityAcc-mean()-Z
+timeGravityAccelerometerStdX               |  mean of tGravityAcc-std()-X
+timeGravityAccelerometerStdY               |  mean of tGravityAcc-std()-Y
+timeGravityAccelerometerStdZ               |  mean of tGravityAcc-std()-Z
+timeBodyAccelerometerJerkMeanX             |  mean of tBodyAccJerk-mean()-X
+timeBodyAccelerometerJerkMeanY             |  mean of tBodyAccJerk-mean()-Y
+timeBodyAccelerometerJerkMeanZ             |  mean of tBodyAccJerk-mean()-Z
+timeBodyAccelerometerJerkStdX              |  mean of tBodyAccJerk-std()-X
+timeBodyAccelerometerJerkStdY              |  mean of tBodyAccJerk-std()-Y
+timeBodyAccelerometerJerkStdZ              |  mean of tBodyAccJerk-std()-Z
+timeBodyGyroscopeMeanX                     |  mean of tBodyGyro-mean()-X
+timeBodyGyroscopeMeanY                     |  mean of tBodyGyro-mean()-Y
+timeBodyGyroscopeMeanZ                     |  mean of tBodyGyro-mean()-Z
+timeBodyGyroscopeStdX                      |  mean of tBodyGyro-std()-X
+timeBodyGyroscopeStdY                      |  mean of tBodyGyro-std()-Y
+timeBodyGyroscopeStdZ                      |  mean of tBodyGyro-std()-Z
+timeBodyGyroscopeJerkMeanX                 |  mean of tBodyGyroJerk-mean()-X
+timeBodyGyroscopeJerkMeanY                 |  mean of tBodyGyroJerk-mean()-Y
+timeBodyGyroscopeJerkMeanZ                 |  mean of tBodyGyroJerk-mean()-Z
+timeBodyGyroscopeJerkStdX                  |  mean of tBodyGyroJerk-std()-X
+timeBodyGyroscopeJerkStdY                  |  mean of tBodyGyroJerk-std()-Y
+timeBodyGyroscopeJerkStdZ                  |  mean of tBodyGyroJerk-std()-Z
+timeBodyAccelerometerMagMean               |  mean of tBodyAccMag-mean()
+timeBodyAccelerometerMagStd                |  mean of tBodyAccMag-std()
+timeGravityAccelerometerMagMean            |  mean of tGravityAccMag-mean()
+timeGravityAccelerometerMagStd             |  mean of tGravityAccMag-std()
+timeBodyAccelerometerJerkMagMean           |  mean of tBodyAccJerkMag-mean()
+timeBodyAccelerometerJerkMagStd            |  mean of tBodyAccJerkMag-std()
+timeBodyGyroscopeMagMean                   |  mean of tBodyGyroMag-mean()
+timeBodyGyroscopeMagStd                    |  mean of tBodyGyroMag-std()
+timeBodyGyroscopeJerkMagMean               |  mean of tBodyGyroJerkMag-mean()
+timeBodyGyroscopeJerkMagStd                |  mean of tBodyGyroJerkMag-std()
+frequencyBodyAccelerometerMeanX            |  mean of fBodyAcc-mean()-X
+frequencyBodyAccelerometerMeanY            |  mean of fBodyAcc-mean()-Y
+frequencyBodyAccelerometerMeanZ            |  mean of fBodyAcc-mean()-Z
+frequencyBodyAccelerometerStdX             |  mean of fBodyAcc-std()-X
+frequencyBodyAccelerometerStdY             |  mean of fBodyAcc-std()-Y
+frequencyBodyAccelerometerStdZ             |  mean of fBodyAcc-std()-Z
+frequencyBodyAccelerometerJerkMeanX        |  mean of fBodyAccJerk-mean()-X
+frequencyBodyAccelerometerJerkMeanY        |  mean of fBodyAccJerk-mean()-Y
+frequencyBodyAccelerometerJerkMeanZ        |  mean of fBodyAccJerk-mean()-Z
+frequencyBodyAccelerometerJerkStdX         |  mean of fBodyAccJerk-std()-X
+frequencyBodyAccelerometerJerkStdY         |  mean of fBodyAccJerk-std()-Y
+frequencyBodyAccelerometerJerkStdZ         |  mean of fBodyAccJerk-std()-Z
+frequencyBodyGyroscopeMeanX                |  mean of fBodyGyro-mean()-X
+frequencyBodyGyroscopeMeanY                |  mean of fBodyGyro-mean()-Y
+frequencyBodyGyroscopeMeanZ                |  mean of fBodyGyro-mean()-Z
+frequencyBodyGyroscopeStdX                 |  mean of fBodyGyro-std()-X
+frequencyBodyGyroscopeStdY                 |  mean of fBodyGyro-std()-Y
+frequencyBodyGyroscopeStdZ                 |  mean of fBodyGyro-std()-Z
+frequencyBodyAccelerometerMagMean          |  mean of fBodyAccMag-mean()
+frequencyBodyAccelerometerMagStd           |  mean of fBodyAccMag-std()
+frequencyBodyBodyAccelerometerJerkMagMean  |  mean of fBodyBodyAccJerkMag-mean()
+frequencyBodyBodyAccelerometerJerkMagStd   |  mean of fBodyBodyAccJerkMag-std()
+frequencyBodyBodyGyroscopeMagMean          |  mean of fBodyBodyGyroMag-mean()
+frequencyBodyBodyGyroscopeMagStd           |  mean of fBodyBodyGyroMag-std()
+frequencyBodyBodyGyroscopeJerkMagMean      |  mean of fBodyBodyGyroJerkMag-mean()
+frequencyBodyBodyGyroscopeJerkMagStd       |  mean of fBodyBodyGyroJerkMag-std()
+
+
+Transformations
+ 46  run_analysis.R 
+@@ -1,5 +1,5 @@
+library(data.table)
+library(reshape2)
+library(dplyr)
+
+path <- getwd()
+
+@@ -52,46 +52,30 @@ dtFeats$ftCode <- paste('V', dtFeats$ftNum, sep = "")
+#select only the filtered features (with=FALSE to dynamically pick cols)
+dt <- dt[,c(key(dt), dtFeats$ftCode),with=F]
+
+#rename columns
+setnames(dt, old=dtFeats$ftCode, new=as.character(dtFeats$ftName))
+
+#read activity names
+dtActNames <- data.table(read.table(file.path(path, d, 'activity_labels.txt')))
+names(dtActNames) <- c('Activity','ActivityName')
+dt <- merge(dt,dtActNames,by='Activity')
+remove(dtActNames)
+#add activityname as a key
+setkey(dt,Subject,Activity,ActivityName)
+
+#reshape data
+dt <- melt(dt, key(dt), variable.name='ftCode',value.name='ftValue')
+dt$Activity <- NULL
+
+#merge in ftName
+dt <- merge(dt,dtFeats,by='ftCode')
+setkey(dt,Subject,ActivityName,ftName)
+
+dtTidy <- dt[,.(ftAvg=mean(ftValue)),by=key(dt)]
+dtTidy <- dt %>% group_by(Subject, ActivityName) %>% summarise_each(funs(mean))
+
+dtTidy$Activity <- NULL
+
+#start seperating out featName column to seperate columns
+#ftDomain: TIME FREQ
+dtTidy$ftDomain[grepl('^t',dtTidy$ftName)] <- 'Time'
+dtTidy$ftDomain[grepl('^f',dtTidy$ftName)] <- 'Freq'
+#ftInstrment:  Accelerometer Gyroscope
+dtTidy$ftInstrment[grepl('Acc',dtTidy$ftName)] <- 'Accelerometer'
+dtTidy$ftInstrment[grepl('Gyro',dtTidy$ftName)] <- 'Gyroscope'
+#ftAcceleration:  Body Gravity
+dtTidy$ftAcceleration[grepl('BodyAcc',dtTidy$ftName)] <- 'Body'
+dtTidy$ftAcceleration[grepl('GravityAcc',dtTidy$ftName)] <- 'Gravity'
+#ftStatVariable:  mean std
+dtTidy$ftStatVariable[grepl('mean()',dtTidy$ftName)] <- 'mean'
+dtTidy$ftStatVariable[grepl('std()',dtTidy$ftName)] <- 'std'
+#ftJerk: Y
+dtTidy$ftJerk[grepl('Jerk', dtTidy$ftName)] <- 'Y'
+#ftMagnitude: Y
+dtTidy$ftMagnitude[grepl('Mag', dtTidy$ftName)] <- 'Y'
+#ftAxis:  X Y Z
+dtTidy$ftAxis[grepl('-X', dtTidy$ftName)] <- 'X'
+dtTidy$ftAxis[grepl('-Y', dtTidy$ftName)] <- 'Y'
+dtTidy$ftAxis[grepl('-Z', dtTidy$ftName)] <- 'Z'
+
+dtTidy$ftName <- NULL
+names(dtTidy) <- gsub('^t', 'time', names(dtTidy))
+names(dtTidy) <- gsub('^f', 'frequency', names(dtTidy))
+names(dtTidy) <- gsub('Acc', 'Accelerometer', names(dtTidy))
+names(dtTidy) <- gsub('Gyro','Gyroscope', names(dtTidy))
+names(dtTidy) <- gsub('mean[(][)]','Mean',names(dtTidy))
+names(dtTidy) <- gsub('std[(][)]','Std',names(dtTidy))
+names(dtTidy) <- gsub('-','',names(dtTidy))
+
+
+write.table(dtTidy, file.path(path, 'tidy.txt'), row.names=FALSE) 
